@@ -2,6 +2,17 @@
   display: grid;
   grid-template-rows: 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67%;
   grid-template-columns: 14.29% 14.29% 14.29% 14.29% 14.29% 14.29% 14.29%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/header-image.jpg') !important;
+  background-image: linear-gradient(white, blue);
+
+}
+#grid-container {
+  display: grid;
+  grid-template-rows: 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67% 6.67%;
+  grid-template-columns: 14.29% 14.29% 14.29% 14.29% 14.29% 14.29% 14.29%;
 }
 .grid-item-1 {
   width: 100%;
@@ -58,7 +69,6 @@
   margin-top: 8vw;
   margin-bottom: 13vw;
   }
-
 h2 {
   color: #005580;
   font-size: 3vw;
@@ -79,7 +89,7 @@ h2 {
 .murphy {
   width: 100%;
 }
-.grid-container a {
+#grid-container a {
   background-color: #32CD32;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
@@ -233,12 +243,6 @@ h2 {
   color: #191970;
   padding: 2vw 3vw 2vw 18vw;
 }
-.background {
-  background-image: url(../assets/header-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
 h4 {
   color: #005580;
   font-family: Arial, sans-serif;
@@ -314,6 +318,7 @@ p {
   background-color: #FFFFFF;
   padding-left: 0vw;
 }
+
 @media screen and (max-width: 390px) {
   .header-text {
     margin-top: 2vw;

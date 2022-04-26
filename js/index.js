@@ -6,7 +6,6 @@ function totalCost(x, y) {
   alert(result);
 }
 
-
 function showDogInfo(x,y,z) {
   let dogName = x;
   let dogBreed = y;
